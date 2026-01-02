@@ -12,4 +12,6 @@ Este repositório reúne uma série de **50 projetos** desenvolvidos com **HTML,
 
 ## Índice 
 
-- [Dia 01: Expanding Cards](dia_01-expanding_cards)
+| Projeto | Descrição |
+|---------|-----------|
+| [Dia 01: Expanding Cards](dia_01-expanding_cards) | O projeto cria uma galeria interativa de cartões expansíveis, onde cada painel se destaca ao ser clicado através de transições suaves em CSS e JavaScript. |

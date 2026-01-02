@@ -12,4 +12,4 @@ Este repositório reúne uma série de **50 projetos** desenvolvidos com **HTML,
 
 ## Índice 
 
-- Dia 01: Expanding Cards
+- [Dia 01: Expanding Cards](dia_01-expanding_cards)

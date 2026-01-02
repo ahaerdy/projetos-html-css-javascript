@@ -152,12 +152,8 @@ body {
 
 ```
 
-<display>
-<summary> Código javascript detalhadamente comentado </summary>
-
-Perfeito, Arthur! Vou comentar linha por linha do seu código CSS para explicar o que cada parte faz:
-
----
+<details>
+<summary> EXPLICAÇÃO DETALHADA (clicar para expandir)🔻</summary>
 
 ```css
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
@@ -288,8 +284,7 @@ body {
 - **Media query**: aplica estilos apenas em telas menores que 480px (celulares).  
 - `width: 100vw` → container ocupa toda a largura da tela.  
 - Esconde os painéis 4 e 5 para simplificar o layout em telas pequenas.
-
-</display>
+</details>
 
 
 ## Vídeo 03 - Expanding Effect

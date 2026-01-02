@@ -11,3 +11,4 @@ Este repositório reúne uma série de **50 projetos** desenvolvidos com **HTML,
 
 > ✅ Projeto criado originalmente por [Brad Traversy](https://github.com/bradtraversy) no desafio [50projects50days](https://github.com/bradtraversy/50projects50days). 
 
+- [50 Projetos em 50 dias](/50-projetos-em-50-dias)

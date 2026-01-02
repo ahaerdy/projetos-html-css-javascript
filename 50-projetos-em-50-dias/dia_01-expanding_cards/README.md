@@ -139,7 +139,7 @@ body {
 <img src="000-Midia_e_Anexos/vlcsnap-2026-01-02-16h33m47s960.jpg" alt="" width="840">
 </p>
 
-O script JavaScript é responsável pela interatividade. Ele seleciona todos os elementos com a classe `.panel` e adiciona um ouvinte de evento de clique a cada um. Quando um painel é clicado, a função `removeActiveClasses` é chamada para garantir que apenas um cartão esteja expandido por vez, removendo a classe `active` de todos os outros antes de adicioná-la ao painel selecionado.
+O script JavaScript é responsável pela interatividade. Ele seleciona todos os elementos com a classe `.panel` e adiciona um `event listner`de clique para cada um. Quando um painel é clicado, a função `removeActiveClasses` é chamada para garantir que apenas um cartão esteja expandido por vez, removendo a classe `active` de todos os outros antes de adicioná-la ao painel selecionado.
 
 ```javascript
 const panels = document.querySelectorAll('.panel')

@@ -23,7 +23,7 @@ Neste projeto, o objetivo é desenvolver **Expanding Cards** (cartões expansív
 
 A funcionalidade principal do projeto baseia-se na interação do usuário: ao clicar em um painel diferente, como o "Wild Forest", o estado do cartão é alterado. Através do **JavaScript**, adicionamos ouvintes de evento (*event listeners*) que alternam a classe CSS para `active`. Essa mudança dispara uma **transição CSS**, resultando em um efeito de expansão suave. Um detalhe importante da implementação é que o título do cartão só se torna visível após a conclusão da expansão total do painel.
 
-## Vídeo 02 - 
+## Vídeo 02 - Initial Cards
 
 <video width="60%" controls>
   <source src="000-Midia_e_Anexos/006.Initial.Cards.mp4" type="video/mp4">
@@ -40,7 +40,7 @@ Nesta etapa inicial, definimos a estrutura fundamental do projeto utilizando HTM
 
 Cada painel utiliza estilos inline para definir sua imagem de fundo, permitindo que cada cartão exiba uma paisagem distinta, como florestas, praias ou montanhas. O conteúdo interno de cada painel é composto por um título `<h3>` que descreve a imagem correspondente.
 
-▶️ Código HTML )index.html)
+▶️ Código HTML (index.html)
 
 ```html
 <!DOCTYPE html>
@@ -151,3 +151,13 @@ body {
 }
 
 ```
+
+## Vídeo 03 - Expanding Effect
+
+<video width="60%" controls>
+  <source src="000-Midia_e_Anexos/007.Expanding.Effect.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo HTML5.
+</video>
+
+### Anotações
+

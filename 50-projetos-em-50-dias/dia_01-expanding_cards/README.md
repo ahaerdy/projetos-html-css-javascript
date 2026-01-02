@@ -165,7 +165,7 @@ body {
 <img src="000-Midia_e_Anexos/vlcsnap-2026-01-02-17h53m47s960.jpg" alt="" width="840">
 </p>
 
-Nesta etapa, o foco é a manipulação do DOM para criar a interatividade da galeria. O objetivo inicial é selecionar todos os elementos que representam os painéis e adicionar um escutador de eventos para identificar o clique do usuário. Ao clicar em um painel, a classe `active` deve ser gerenciada para que o elemento se expanda, enquanto os outros retornam ao estado original.
+Nesta etapa, o foco é a manipulação do DOM para criar a interatividade da galeria. O objetivo inicial é selecionar todos os elementos que representam os painéis e adicionar um *event listener* para identificar o clique do usuário. Ao clicar em um painel, a classe `active` deve ser gerenciada para que o elemento se expanda, enquanto os outros retornam ao estado original.
 
 Para capturar múltiplos elementos simultaneamente, utilizamos o método `querySelectorAll`, que agrupa os itens em uma `nodeList`. A partir daí, percorremos essa lista com um `forEach` para aplicar a lógica de clique e a alternância de classes.
 

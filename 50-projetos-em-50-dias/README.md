@@ -8,6 +8,8 @@ Este repositório reúne uma série de **50 projetos** desenvolvidos com **HTML,
 - Layouts responsivos
 - Interatividade com JavaScript Vanilla
 
-
 > ✅ Projeto criado originalmente por [Brad Traversy](https://github.com/bradtraversy) no desafio [50projects50days](https://github.com/bradtraversy/50projects50days). 
 
+## Índice 
+
+- Dia 01: Expanding Cards

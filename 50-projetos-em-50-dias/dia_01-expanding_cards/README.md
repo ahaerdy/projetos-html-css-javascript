@@ -40,6 +40,8 @@ Nesta etapa inicial, definimos a estrutura fundamental do projeto utilizando HTM
 
 Cada painel utiliza estilos inline para definir sua imagem de fundo, permitindo que cada cartão exiba uma paisagem distinta, como florestas, praias ou montanhas. O conteúdo interno de cada painel é composto por um título `<h3>` que descreve a imagem correspondente.
 
+▶️ Código HTML )index.html)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -80,6 +82,8 @@ Cada painel utiliza estilos inline para definir sua imagem de fundo, permitindo 
 A estilização com CSS transforma a lista estática de divs em um layout flexível e interativo. O uso de `display: flex` no contêiner alinha os painéis horizontalmente. Cada painel possui propriedades de fundo configuradas para cobrir a área total e cantos arredondados com `border-radius: 50px`.
 
 A interatividade visual é controlada pela propriedade `flex`. Enquanto os painéis padrão possuem `flex: 0.5`, o painel que recebe a classe `.active` expande para `flex: 5`, criando o efeito de destaque. Para suavizar essa transição, aplica-se uma `transition` de 700ms. Além disso, os títulos `<h3>` permanecem ocultos (`opacity: 0`) e tornam-se visíveis apenas no painel ativo através de uma transição de opacidade. O código também inclui uma media query para garantir a responsividade em dispositivos móveis, ocultando os dois últimos painéis em telas com largura inferior a 480px.
+
+▶️ Código CSS (style.css)
 
 ```css
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');

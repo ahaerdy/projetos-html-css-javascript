@@ -218,7 +218,7 @@ body {
   -webkit-transition: all 700ms ease-in;
 }
 ```
-- Configura os painéis (provavelmente imagens de fundo):  
+- Configura os painéis:  
   - `background-size: cover` → imagem cobre todo o painel.  
   - `background-position: center` → centraliza a imagem.  
   - `background-repeat: no-repeat` → evita repetição da imagem.  

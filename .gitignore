@@ -1,0 +1,14 @@
+# Ignorar todos os arquivos .webm
+*.webm
+*.mkv
+*.mp4
+*.mp3
+*.srt
+
+secrets.json
+*.env
+
+
+# (Opcional) Ignorar webm em subpastas específicas
+# pasta/arquivos/*.webm
+

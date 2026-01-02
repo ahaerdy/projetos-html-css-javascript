@@ -161,3 +161,36 @@ body {
 
 ### Anotações
 
+<p align="center">
+<img src="000-Midia_e_Anexos/vlcsnap-2026-01-02-17h53m47s960.jpg" alt="" width="840">
+</p>
+
+Nesta etapa, o foco é a manipulação do DOM para criar a interatividade da galeria. O objetivo inicial é selecionar todos os elementos que representam os painéis e adicionar um escutador de eventos para identificar o clique do usuário. Ao clicar em um painel, a classe `active` deve ser gerenciada para que o elemento se expanda, enquanto os outros retornam ao estado original.
+
+Para capturar múltiplos elementos simultaneamente, utilizamos o método `querySelectorAll`, que agrupa os itens em uma `nodeList`. A partir daí, percorremos essa lista com um `forEach` para aplicar a lógica de clique e a alternância de classes.
+
+```javascript
+const panels = document.querySelectorAll('.panel')
+
+panels.forEach(panel => {
+  panel.addEventListener('click', () => {
+    removeActiveClasses()
+    panel.classList.add('active')
+  })
+})
+
+function removeActiveClasses() {
+  panels.forEach(panel => {
+    panel.classList.remove('active')
+  })
+}
+
+```
+
+A lógica funcional segue estes passos:
+
+1. **Seleção**: Todos os elementos com a classe `.panel` são armazenados na constante `panels`.
+2. **Iteração e Evento**: O loop `forEach` adiciona um `addEventListener` de clique a cada painel individual.
+3. **Limpeza**: A função `removeActiveClasses` é chamada imediatamente após o clique para garantir que nenhum outro painel possua a classe `active` antes de destacar o novo.
+4. **Ativação**: O método `classList.add('active')` é aplicado ao painel clicado, disparando as transições de CSS para a expansão visual.
+

@@ -152,6 +152,8 @@ body {
 
 ```
 
+---
+
 <details>
 <summary> EXPLICAÇÃO DETALHADA (clicar para expandir)🔻</summary>
 
@@ -286,6 +288,7 @@ body {
 - Esconde os painéis 4 e 5 para simplificar o layout em telas pequenas.
 </details>
 
+---
 
 ## Vídeo 03 - Expanding Effect
 

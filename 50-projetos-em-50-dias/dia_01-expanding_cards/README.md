@@ -33,7 +33,7 @@ A funcionalidade principal do projeto baseia-se na interação do usuário: ao c
 ### Anotações
 
 <p align="center">
-<img src="000-Midia_e_Anexos/vlcsnap-2026-01-02-16h31m47s960.jpg" alt="" width="840">
+    <img src="000-Midia_e_Anexos/vlcsnap-2026-01-02-16h31m47s960.jpg" alt="" width="840">
 </p>
 
 A estrutura inicial do projeto é definida através do HTML, estabelecendo a base para os cartões expansíveis. O documento utiliza um contêiner principal para agrupar cinco elementos `div` com a classe `panel`. O primeiro painel recebe adicionalmente a classe `active`, que servirá para identificar qual cartão deve aparecer expandido por padrão.
